@@ -1,0 +1,116 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yonatan Takele — Full-Stack Developer crafting thoughtful digital experiences.">
+  <title>Yonatan Takele | Full-Stack Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta property="og:image" content="https://bolt.new/static/og_default.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+<body>
+  <div class="welcome-screen" id="welcomeScreen" aria-labelledby="welcomeTitle">
+    <div class="welcome-grid"></div>
+    <div class="welcome-inner">
+      <div style="border-radius: 45px;" class="brand-mark large">YT</div>
+      <p class="kicker">Full-stack developer</p>
+      <h1 id="welcomeTitle">Welcome to my<br><span>digital workspace.</span></h1>
+      <p class="welcome-copy">Choose a viewing experience and explore the ideas, interfaces, and systems I like to build.</p>
+      <div class="device-options" role="group" aria-label="Choose a viewing experience">
+        <button class="device-card" data-mode="mobile" type="button">
+          <span class="device-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="14" y="5" width="20" height="38" rx="3"/><path d="M20 9h8M22 38h4"/></svg></span>
+          <span><strong>Mobile Experience</strong><small>Explore in a smartphone-sized layout.</small></span><span class="arrow">↗</span>
+        </button>
+        <button class="device-card featured" data-mode="desktop" type="button">
+          <span class="device-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="6" y="7" width="36" height="25" rx="2"/><path d="M3 38h42M18 38l2-6h8l2 6"/></svg></span>
+          <span><strong>Desktop Experience</strong><small>Explore in a spacious desktop layout.</small></span><span class="arrow">↗</span>
+        </button>
+      </div>
+      <p class="welcome-note"><span class="status-dot"></span>Your preference will be remembered</p>
+    </div>
+  </div>
+
+  <div class="site-shell" id="siteShell" aria-hidden="true">
+    <header class="site-header" id="top">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="#home"><span style="border-radius: 45px;" class="brand-mark">YT</span><span>Yonatan Takele</span></a>
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation"><span></span><span></span></button>
+        <div class="nav-links" id="navLinks">
+          <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+          <a class="nav-cta" href="#contact">Let's Talk <span>↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section container" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Full-stack developer <i></i> digital craftsman</p>
+          <h1>Building digital<br><em>experiences</em> that<br><mark style="background-color: rgb(0, 162, 255);border-radius: 50px;">make a difference.</mark></h1>
+          <p class="hero-intro">I'm Yonatan Takele, a Full-Stack Developer passionate about crafting thoughtful interfaces, building reliable web applications, and turning complex ideas into elegant digital experiences.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#projects">Explore My Work <span>↗</span></a><a class="text-link" href="#contact">Let's Connect <span>→</span></a></div>
+          <div class="hero-tech"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>TypeScript</span><span>Python</span></div>
+        </div>
+        <div class="hero-visual reveal delay-1">
+          <div class="portrait-frame"><img src="yo's 2.jpg" alt="I've seated outdoors" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'"><div class="image-fallback"><span>YT</span><small>Portrait image<br>coming soon</small></div><div class="portrait-label">Portrait / 01</div></div>
+          <div class="availability"><span></span>Available for select projects</div>
+          <div class="code-card"><div class="window-dots"><i></i><i></i><i></i><span>yonatan.js</span></div><pre><b>const</b> creator = {
+  name: <em>'Yonatan Takele'</em>,
+  focus: <em>'meaningful web'</em>,
+  status: <em>'building'</em>
+};</pre></div>
+          <div class="location">Based in <strong>Addis Ababa, Sebeta</strong><span>↗</span></div>
+        </div>
+      </section>
+
+      <section class="about section container" id="about">
+        <div class="section-heading reveal"><span class="section-number">01</span><p class="eyebrow">A little about me</p><h2>Curious by nature.<br><em>Intentional</em> by design.</h2></div>
+        <div class="about-content reveal delay-1"><p class="lead">I believe the best digital work sits at the intersection of clarity, craft, and curiosity.</p><p>I'm drawn to the moments where a complex problem becomes a simple, intuitive experience. From shaping a clean interface to thinking through the systems underneath it, I care about making things that feel considered and work beautifully.</p><div class="principles"><span>01 / Stay curious</span><span>02 / Build with care</span><span>03 / Keep it human</span></div><div class="photo-strip" aria-label="Yonatan Takele photo gallery"><img src="assets/yo's_2.jpg" alt="Yonatan Takele outdoors wearing sunglasses" onerror="this.style.display='none'"><img src="assets/yo's_3.jpg" alt="Yonatan Takele portrait outdoors" onerror="this.style.display='none'"></div></div>
+      </section>
+
+      <section class="skills section container" id="skills"><div class="section-heading centered reveal"><span class="section-number">02</span><p class="eyebrow">The toolkit</p><h2>Tools for turning<br><em>thoughts into things.</em></h2></div><div class="skill-grid reveal delay-1"><article><span class="card-index">01</span><h3>Core technologies</h3><p>The building blocks I use to shape reliable web experiences.</p><div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>TypeScript</span><span>Python</span></div></article><article><span class="card-index">02</span><h3>Frontend development</h3><p>Interfaces that respond naturally to people and their devices.</p><div class="tags"><span>Responsive design</span><span>DOM manipulation</span><span>Accessibility</span><span>Browser APIs</span><span>CSS motion</span></div></article><article><span class="card-index">03</span><h3>Development concepts</h3><p>A practical foundation for thoughtful, maintainable work.</p><div class="tags"><span>REST concepts</span><span>JSON</span><span>HTTP fundamentals</span><span>Git & GitHub</span><span>Performance</span></div></article></div></section>
+
+      <section class="services section container" id="services"><div class="section-heading split reveal"><div><span class="section-number">03</span><p class="eyebrow">What I can do</p><h2>Useful work,<br><em>well considered.</em></h2></div><p class="heading-note">Every project starts with a question and ends with something people can use.</p></div><div class="service-grid reveal delay-1"><article><span class="service-icon">↗</span><h3>Frontend Development</h3><p>Clear, responsive interfaces built around real user needs.</p></article><article><span class="service-icon">✦</span><h3>Responsive Website Design</h3><p>Flexible layouts that feel at home on every screen.</p></article><article><span class="service-icon">⌁</span><h3>Interactive UI Development</h3><p>Purposeful interactions with feedback that feels natural.</p></article><article><span class="service-icon">◌</span><h3>Portfolio Development</h3><p>Distinctive personal websites that communicate your work.</p></article><article><span class="service-icon">↯</span><h3>Website Optimization</h3><p>Thoughtful improvements for speed, clarity, and access.</p></article><article><span class="service-icon">+</span><h3>Website Maintenance</h3><p>Careful iteration that keeps a digital home in shape.</p></article></div></section>
+
+      <section class="projects section container" id="projects"><div class="section-heading split reveal"><div><span class="section-number">04</span><p class="eyebrow">Selected explorations</p><h2>Ideas brought<br><em>to the screen.</em></h2></div><div class="project-controls"><label class="search-box"><span>⌕</span><input id="projectSearch" type="search" placeholder="Search projects" aria-label="Search projects"></label><div class="filters" role="group" aria-label="Filter projects"><button class="active" data-filter="all">All</button><button data-filter="interface">Interface</button><button data-filter="dashboard">Dashboard</button></div></div></div><div class="project-grid reveal delay-1" id="projectGrid">
+        <article class="project-card" data-category="interface" data-title="Developer Portfolio" data-description="A calm, editorial portfolio concept for showing a developer's thinking and work with confidence." data-tech="HTML5, CSS3, JavaScript, React."><div class="project-preview preview-portfolio"><div class="mini-nav">YT <span>work&nbsp;&nbsp; about&nbsp;&nbsp; contact</span></div><b>Make space<br>for good ideas.</b><i></i></div><div class="project-meta"><span class="project-type">01 / Interface</span><h3>Developer Portfolio</h3><button class="detail-button" type="button">View details <span>↗</span></button></div></article>
+        <article class="project-card" data-category="dashboard" data-title="Task Management Dashboard" data-description="A focused workspace concept that makes priorities visible without adding noise." data-tech="HTML5, CSS3, JavaScript, Vue."><div class="project-preview preview-tasks"><div class="mini-sidebar"></div><div class="mini-chart"><b>Good morning, Our Dear user</b><div><i></i><i></i><i></i><i></i><i></i></div><small>Tasks completed&nbsp;&nbsp; 84%</small></div></div><div class="project-meta"><span class="project-type">02 / Dashboard</span><h3>Task Management Dashboard</h3><button class="detail-button" type="button">View details <span>↗</span></button></div></article>
+        <article class="project-card" data-category="interface" data-title="E-Commerce Interface" data-description="A warm storefront direction focused on product discovery and a frictionless browsing rhythm." data-tech="HTML5, CSS3, JavaScript"><div class="project-preview preview-shop"><div class="shop-product"></div><span>new season<br><b>Objects with<br>intention.</b></span></div><div class="project-meta"><span class="project-type">03 / Interface</span><h3>E-Commerce Interface</h3><button class="detail-button" type="button">View details <span>↗</span></button></div></article>
+        <article class="project-card" data-category="dashboard" data-title="Weather Dashboard" data-description="A weather concept that makes changing conditions easy to scan and understand." data-tech="HTML5, CSS3, JavaScript, react, angular, Vue"><div class="project-preview preview-weather"><span class="weather-temp">24°</span><span class="weather-city">Addis Ababa<br><small>Partly cloudy</small></span><div class="weather-bars"><i></i><i></i><i></i><i></i><i></i></div></div><div class="project-meta"><span class="project-type">04 / Dashboard</span><h3>Weather Dashboard</h3><button class="detail-button" type="button">View details <span>↗</span></button></div></article>
+        <article class="project-card" data-category="dashboard" data-title="Analytics Dashboard" data-description="A data-rich dashboard concept that uses hierarchy to turn metrics into direction." data-tech="HTML5, CSS3, JavaScript"><div class="project-preview preview-analytics"><div class="analytics-top"><b>Overview</b><span>+18.4%</span></div><div class="line-chart"></div><div class="analytics-labels"><i></i><i></i><i></i><i></i></div></div><div class="project-meta"><span class="project-type">05 / Dashboard</span><h3>Analytics Dashboard</h3><button class="detail-button" type="button">View details <span>↗</span></button></div></article>
+        <article class="project-card" data-category="interface" data-title="Learning Management Interface" data-description="A learning space concept built to make progress feel visible and encourage steady momentum." data-tech="HTML5, CSS3, JavaScript"><div class="project-preview preview-learning"><span>Continue learning</span><b>Build a better<br>understanding.</b><div class="progress"><i></i></div></div><div class="project-meta"><span class="project-type">06 / Interface</span><h3>Learning Management Interface</h3><button class="detail-button" type="button">View details <span>↗</span></button></div></article>
+      </div><p class="empty-state" id="emptyState" hidden>No explorations match that search.</p></section>
+
+      <section class="journey section container" id="experience"><div class="section-heading centered reveal"><span class="section-number">05</span><p class="eyebrow">The journey so far</p><h2>Always learning.<br><em>Always building.</em></h2></div><div class="timeline reveal delay-1"><div><span>01</span><h3>Learning core web technologies</h3><p>Building a strong foundation in the language of the web.</p></div><div><span>02</span><h3>Building personal projects</h3><p>Turning small questions into tangible experiments.</p></div><div><span>03</span><h3>Exploring responsive design</h3><p>Understanding how experiences adapt and remain clear.</p></div><div><span>04</span><h3>Developing interactive interfaces</h3><p>Making digital spaces feel more intuitive and alive.</p></div><div><span>05</span><h3>Expanding full-stack knowledge</h3><p>Looking beyond the screen to the systems beneath it.</p></div></div></section>
+
+      <section class="process section container"><div class="section-heading split reveal"><div><span class="section-number">06</span><p class="eyebrow">How I work</p><h2>From first question<br>to <em>final detail.</em></h2></div><p class="heading-note">A flexible process keeps the work focused while leaving room for discovery.</p></div><div class="process-grid reveal delay-1"><div><span>01</span><strong>Discover</strong><small>Understand the why.</small></div><div><span>02</span><strong>Plan</strong><small>Find the right path.</small></div><div><span>03</span><strong>Design</strong><small>Give ideas a shape.</small></div><div><span>04</span><strong>Develop</strong><small>Build with intention.</small></div><div><span>05</span><strong>Test</strong><small>Learn from real use.</small></div><div><span>06</span><strong>Refine</strong><small>Make the good better.</small></div></div></section>
+
+      <section class="code-showcase section container"><div class="section-heading split reveal"><div><span class="section-number">07</span><p class="eyebrow">A peek under the hood</p><h2>Small details.<br><em>Clean thinking.</em></h2></div><p class="heading-note">A few lines can say a lot about how someone approaches their craft.</p></div><div class="editor reveal delay-1"><div class="editor-top"><div class="window-dots"><i></i><i></i><i></i></div><span id="fileName">index.html</span><div class="language-tabs"><button class="active" data-language="html">HTML</button><button data-language="css">CSS</button><button data-language="javascript">JS</button><button data-language="typescript">TS</button><button data-language="python">PY</button></div><button class="copy-button" id="copyCode" type="button">Copy code <span>↗</span></button></div><div class="code-body"><div class="line-numbers" id="lineNumbers"></div><pre id="codeContent" tabindex="0"></pre></div><p class="copy-status" id="copyStatus" role="status" aria-live="polite"></p></div></section>
+
+      <section class="contact section container" id="contact"><div class="contact-layout"><div class="section-heading reveal"><span class="section-number">08</span><p class="eyebrow">Start a conversation</p><h2>Have an idea?<br><em>Let's make it real.</em></h2><p class="contact-note">Whether you have a clear brief or just the beginning of a thought, I would love to hear about it.</p><div class="contact-links"><span>Preferred contact</span><a href="mailto:yonitakele2007@gmail.com">yonitakele2007@gmail.com<b>↗</b></a><a href="https://t.me/Yoni36975" target="_blank" rel="noopener noreferrer">Get me on telegram<b>↗</b></a><span>Preferred contact</span><span>Based in</span><p>Addis Ababa, Ethiopia</p></div></div><form class="contact-form reveal delay-1" id="contactForm" novalidate><div class="form-row"><label>Full name<input name="name" type="text" autocomplete="name" required><small></small></label><label>Email address<input name="email" type="email" autocomplete="email" required><small></small></label></div><label>Subject<input name="subject" type="text" required><small></small></label><label>Project type<select name="type"><option value="">Select a project type</option><option>Website design</option><option>Frontend development</option><option>Interactive interface</option><option>Something else</option></select></label><label>Tell me a little about it<textarea placeholder="Enter you phone number and telegram Username else your project will not start building!" name="message" rows="5" required></textarea><small></small></label><button class="button button-primary" type="submit">Send inquiry <span>↗</span></button><p class="form-success" id="formSuccess" role="status"></p><p class="form-note">Your message will be securely sent and stored.</p></form></div></section>
+    </main>
+
+    <footer class="footer"><div class="container footer-main"><a class="brand" href="#home"><span class="brand-mark">YT</span><span>Yonatan Takele</span></a><p>Building with curiosity.<br>Designing with purpose.</p><a class="back-top" href="#top">Back to top <span>↑</span></a></div><div class="container footer-bottom"><span>© <span id="year"></span> Yonatan Takele</span><span>Full-Stack Developer</span><button id="changeMode" type="button">Change viewing mode</button></div></footer>
+  </div>
+
+  <dialog class="project-modal" id="projectModal"><button class="modal-close" id="modalClose" type="button" aria-label="Close project details">×</button><p class="eyebrow">Project exploration</p><h2 id="modalTitle"></h2><p id="modalDescription"></p><div class="modal-details"><div><span>Technologies</span><strong id="modalTech"></strong></div><div><span>Objective</span><strong>Make a useful idea feel simple and considered.</strong></div><div><span>Implementation</span><strong>Semantic structure, responsive CSS, and focused vanilla JavaScript.</strong></div></div></dialog>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script>
+  const SUPABASE_URL = "https://qaawefiicgogjzyrjkjn.supabase.co";
+  const SUPABASE_KEY = "sb_publishable_mHC80KBBkDLTm83HaQaXeg_puHgRGKl";
+
+  const supabaseClient = window.supabase.createClient(
+    SUPABASE_URL,
+    SUPABASE_KEY
+  );
+</script>
+  <script src="script.js"></script>
+</body>
+</html>
